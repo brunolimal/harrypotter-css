@@ -1,11 +1,11 @@
-html, body {
+body {
     background-color: black;
     color: white;
   }
 
   .estilo__logo1 {
     display: inline-block;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-top: 20px;
     width: 180px;
     height: 70px;
@@ -14,7 +14,7 @@ html, body {
   .menu1 {
     position: absolute;
     top: 30px;
-    left: 350px;
+    left: 300px;
     font-size: 22px;
   }
 
@@ -29,7 +29,11 @@ html, body {
     margin: 10px;
   }
 
-  .menu1 li a:hover {
+  .menu1 li a:hover{
+    text-decoration: underline;
+  }
+
+  .menu1 li a:visited {
     text-decoration: underline;
   }
 
@@ -122,3 +126,7 @@ html, body {
   .menu2 li a:hover {
     text-decoration: underline;
   }
+
+  .menu2 li a:active {
+    text-decoration: underline;
+    }

@@ -31,7 +31,7 @@ body {
 
   .menu1 li a:hover {
     text-decoration: underline;
-  }
+    }
 
   .imagem__principal {
     margin-top: 40px;
@@ -119,5 +119,9 @@ body {
   }
 
   .menu2 li a:hover {
+    text-decoration: underline;
+  }
+
+  .menu2 li a:active {
     text-decoration: underline;
   }
