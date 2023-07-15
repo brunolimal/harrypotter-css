@@ -40,7 +40,7 @@ body {
   
   .imagem__principal {
   position: relative;
-  margin-top: 40px;
+  margin-top: 30px;
   overflow: hidden;
   }
   
@@ -55,7 +55,7 @@ body {
   position: relative;
   top: -10px;
   transform: translateX(1200px);
-  width: 150px;
+  width: 180px;
   height: 250px;
   }
   
@@ -72,13 +72,15 @@ body {
   padding-right: 350px;
   padding-top: 50px;
   font-size: 20px;
+  max-width: 1000px;
+  text-align: justify;
   }
   
   .imagem__filme1 {
   position: relative;
   top: 20px;
   transform: translateX(150px);
-  width: 150px;
+  width: 180px;
   height: 250px;
   }
   
@@ -96,7 +98,9 @@ body {
   padding-right: 90px;
   padding-top: 50px;
   font-size: 20px;
-   }
+  max-width: 1000px;
+  text-align: justify;
+  }
   
   .estilo__logo2 {
   display: inline-block;
