@@ -4,8 +4,9 @@ body {
   overflow-x: hidden;
   }
   
-  .estilo__logo__superior {
-  display: inline-block;
+  .estilo__logo__superior,
+  .estilo__logo__inferior {
+  display: flex;
   padding-left: 40px;
   padding-top: 20px;
   width: 180px;
@@ -17,25 +18,6 @@ body {
   top: 30px;
   left: 300px;
   font-size: 22px;
-  }
-  
-  .menu__superior li {
-  display: inline-block;
-  margin-right: 25px;
-  }
-  
-  .menu__superior li a {
-  text-decoration: none;
-  color: white;
-  margin: 10px;
-  }
-  
-  .menu__superior li a:hover {
-  text-decoration: underline;
-  }
-  
-  .menu__superior li a:visited {
-  text-decoration: underline;
   }
   
   .imagem__principal {
@@ -101,37 +83,34 @@ body {
   max-width: 1000px;
   text-align: justify;
   }
-  
-  .estilo__logo__inferior {
-  display: inline-block;
-  padding-left: 50px;
-  padding-top: 60px;
-  width: 180px;
-  height: 70px;
-  }
-  
+    
   .menu__inferior {
+  display: flex;
+  font-size: 22px;
   position: relative;
   bottom: 80px;
   left: 350px;
-  font-size: 22px;
   }
   
-  .menu__inferior li {
+  .menu__inferior li,
+  .menu__superior li {
   display: inline-block;
   margin-right: 25px;
   }
   
+  .menu__superior li a,
   .menu__inferior li a {
   text-decoration: none;
   color: white;
   margin: 10px;
   }
   
-  .menu__inferior li a:hover {
+  .menu__inferior li a:hover,
+  .menu__superior li a:hover {
   text-decoration: underline;
   }
   
-  .menu__inferior li a:active {
+  .menu__inferior li a:active,
+  .menu__superior li a:active {
   text-decoration: underline;
   }
