@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   }
   
-  .estilo__logo1 {
+  .estilo__logo__superior {
   display: inline-block;
   padding-left: 40px;
   padding-top: 20px;
@@ -12,29 +12,29 @@ body {
   height: 70px;
   }
   
-  .menu1 {
+  .menu__superior {
   position: absolute;
   top: 30px;
   left: 300px;
   font-size: 22px;
   }
   
-  .menu1 li {
+  .menu__superior li {
   display: inline-block;
   margin-right: 25px;
   }
   
-  .menu1 li a {
+  .menu__superior li a {
   text-decoration: none;
   color: white;
   margin: 10px;
   }
   
-  .menu1 li a:hover {
+  .menu__superior li a:hover {
   text-decoration: underline;
   }
   
-  .menu1 li a:visited {
+  .menu__superior li a:visited {
   text-decoration: underline;
   }
   
@@ -44,14 +44,14 @@ body {
   overflow: hidden;
   }
   
-  .titulo__pagina {
+  .pagina__titulo {
   text-align: center;
   font-size: 25px;
   margin-top: 60px;
   margin-bottom: -20px;
   }
   
-  .imagem__filme {
+  .filme__imagem__direita {
   position: relative;
   top: -10px;
   transform: translateX(1200px);
@@ -59,14 +59,14 @@ body {
   height: 250px;
   }
   
-  .titulo__filme {
+  .filme__titulo__direita {
   position: relative;
   right: -250px;
   top: 60px;
   font-size: 25px;
   }
   
-  .texto__filme {
+  .filme__texto__direita {
   position: absolute;
   padding-left: 100px;
   padding-right: 350px;
@@ -76,7 +76,7 @@ body {
   text-align: justify;
   }
   
-  .imagem__filme1 {
+  .filme__imagem__esquerda {
   position: relative;
   top: 20px;
   transform: translateX(150px);
@@ -84,14 +84,14 @@ body {
   height: 250px;
   }
   
-  .titulo__filme1 {
+  .filme__titulo__esquerda {
   position: relative;
   right: -500px;
   top: 60px;
   font-size: 25px;
   }
   
-  .texto__filme1 {
+  .filme__texto__esquerda {
   position: absolute;
   left: 280px;
   padding-left: 100px;
@@ -102,7 +102,7 @@ body {
   text-align: justify;
   }
   
-  .estilo__logo2 {
+  .estilo__logo__inferior {
   display: inline-block;
   padding-left: 50px;
   padding-top: 60px;
@@ -110,28 +110,28 @@ body {
   height: 70px;
   }
   
-  .menu2 {
+  .menu__inferior {
   position: relative;
   bottom: 80px;
   left: 350px;
   font-size: 22px;
   }
   
-  .menu2 li {
+  .menu__inferior li {
   display: inline-block;
   margin-right: 25px;
   }
   
-  .menu2 li a {
+  .menu__inferior li a {
   text-decoration: none;
   color: white;
   margin: 10px;
   }
   
-  .menu2 li a:hover {
+  .menu__inferior li a:hover {
   text-decoration: underline;
   }
   
-  .menu2 li a:active {
+  .menu__inferior li a:active {
   text-decoration: underline;
   }
