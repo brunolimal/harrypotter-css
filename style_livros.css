@@ -1,9 +1,11 @@
-body {
+#black-background {
   background-color: black;
-  color: white;
+}
+
+body {
   overflow-x: hidden;
   }
-
+  
   .estilo__logo__superior,
   .estilo__logo__inferior {
   display: flex;
@@ -12,83 +14,90 @@ body {
   width: 180px;
   height: 70px;
   }
-
+  
   .menu__superior {
   position: absolute;
-  top: 30px;
-  left: 300px;
+  top: 20px;
+  left: 250px;
   font-size: 22px;
   }
-
+  
   .imagem__principal {
+  position: relative;
   margin-top: 30px;
+  overflow: hidden;
   }
-
+  
   .pagina__titulo {
+  color: white;
   text-align: center;
   font-size: 25px;
   margin-top: 60px;
   margin-bottom: -20px;
   }
-
+  
   .livro__imagem__direita {
   position: relative;
-  top: -10px;
-  transform: translate(1200px);
-  width: 180px;
-  height: 250px;
+  margin-top: -380px;
+  transform: translateX(1150px);
+  width: 230px;
+  height: 310px;
   }
-      
+  
   .livro__titulo__direita {
+  color: white;
   position: relative;
-  right: -250px;
-  top: 60px;
+  right: -290px;
+  top: 25px;
   font-size: 25px;
   }
-
+  
   .livro__texto__direita {
-  position: absolute;
+  color: white;
+  position: relative;
   padding-left: 100px;
-  padding-right: 350px;
   padding-top: 50px;
   font-size: 20px;
-  max-width: 1000px;
+  max-width: 1100px;
   text-align: justify;
   }
-
+  
   .livro__imagem__esquerda {
   position: relative;
-  top: 20px;
-  transform: translate(150px);
-  width: 180px;
-  height: 250px;
+  top: 10px;
+  transform: translateX(95px);
+  width: 230px;
+  height: 310px;
   }
-      
+  
   .livro__titulo__esquerda {
+  color: white;
   position: relative;
-  right: -600px;
-  top: 60px;
+  right: -650px;
+  top: 30px;
   font-size: 25px;
   }
-
+  
   .livro__texto__esquerda {
+  color: white;
   position: absolute;
-  left: 280px;
-  padding-left: 100px;
-  padding-right: 90px;
-  padding-top: 50px;
+  left: 380px;
+  padding-right: 10px;
+  padding-top: 55px;
   font-size: 20px;
   max-width: 1000px;
   text-align: justify;
   }
-
+    
   .menu__inferior {
-  position: relative;
-  bottom: 80px;
-  left: 300px;
+  background-color: black;
+  display: flex;
   font-size: 22px;
+  position: relative;
+  bottom: 50px;
+  left: 250px;
   }
-
+  
   .menu__inferior li,
   .menu__superior li {
   display: inline-block;
