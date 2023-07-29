@@ -120,3 +120,8 @@ body {
   .menu__superior li a:active {
   text-decoration: underline;
   }
+
+  .ignorar {
+  text-align: center;
+  color: red;
+  }
